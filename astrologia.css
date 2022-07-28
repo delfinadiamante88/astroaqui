@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(245, 205, 205);
+    flex-wrap: wrap;
+}
+h1{
+    color: rgb(215, 215, 238);
+}
+.home{
+    display: flex;
+    text-align: justify;
+}
+.in-flex{
+    flex: 1;
+    min-width: 20px;
+    border-radius: 10px;
+}
+.in-flex:first-child{
+    flex:2;
+    padding: 25px;
+    background-color: rgb(245, 205, 205);
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+.in-flex div{
+    padding: 25px;
+    background-color: rgb(241, 138, 138);
+    margin: 20px;
+    border-radius: 10px;
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: green;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 3);
+    z-index: 100;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+article{
+    background-color: rgb(245, 205, 205);
+    margin: 10px;
+    padding-bottom: 2px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.article1{
+ flex-wrap:inherit;
+ color: rgb(241, 138, 138);
+ border-radius: 10px;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color:green;
+    background: #fff;
+
+}
+form{
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 30px;
+    background-color: #f1bbbb;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 5px;
+}
+button{
+    color: #f1bbbb;
+    border: 1px;
+    border-radius: 1px;
+    background-color: #f1bbbb;
+
+}
+footer{
+    text-align: center;
+    background-color: rgb(255, 126, 126);
+    color:beige;
+}
+
+
